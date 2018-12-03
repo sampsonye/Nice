@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Nice.pfx</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Sampson</Authors>
+    <Description>Snowflake generator</Description>
+    <PackageProjectUrl>https://github.com/sampsonye/Nice</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sampsonye/Nice</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageReleaseNotes>support snowflake</PackageReleaseNotes>
+    <PackageTags>Nice snowflake distribute</PackageTags>
+    <Copyright>Sampson</Copyright>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
 </Project>
