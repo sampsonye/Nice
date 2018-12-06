@@ -11,6 +11,8 @@
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>Nice snowflake leaf distribute</PackageTags>
     <PackageReleaseNotes>support Id Generator algorithm by MeiTuan Leaf</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Nice.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
