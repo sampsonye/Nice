@@ -13,7 +13,7 @@
     <PackageReleaseNotes>support snowflake</PackageReleaseNotes>
     <PackageTags>Nice snowflake distribute</PackageTags>
     <Copyright>Sampson</Copyright>
-    <Version>0.0.1</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
