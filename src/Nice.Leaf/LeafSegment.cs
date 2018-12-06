@@ -28,6 +28,11 @@ namespace Nice.Leaf
         private readonly ConcurrentQueue<long> _data = new ConcurrentQueue<long>();
         private readonly AutoResetEvent _autoReset = new AutoResetEvent(false);
 
+        /// <summary>
+        /// 美团的Leaf Segment 方案
+        /// </summary>
+        /// <param name="idGetAction">Id生成策略</param>
+        /// <param name="prefill">是否立即初始化数据</param>
         public LeafSegment(Func<DataVal> idGetAction,bool prefill=false)
         {
             _idGetAction = idGetAction;
@@ -38,6 +43,10 @@ namespace Nice.Leaf
             Loop();
         }
 
+        /// <summary>
+        /// 获取下一个Id
+        /// </summary>
+        /// <returns></returns>
         public long NextId()
         {
             _autoReset.Set();

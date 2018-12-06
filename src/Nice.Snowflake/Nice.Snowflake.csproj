@@ -16,4 +16,8 @@
     <Version>0.0.1</Version>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Nice.Snowflake.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.1</Version>
+    <Authors>Sampson</Authors>
+    <Description>Id Generator algorithm by MeiTuan Leaf</Description>
+    <Copyright>Sampson</Copyright>
+    <PackageProjectUrl>https://github.com/sampsonye/Nice</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sampsonye/Nice</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Nice snowflake leaf distribute</PackageTags>
+    <PackageReleaseNotes>support Id Generator algorithm by MeiTuan Leaf</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Nice.Leaf.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

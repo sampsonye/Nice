@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nice.Snowflake</name>
+    </assembly>
+    <members>
+        <member name="T:Nice.Snowflake.Snowflake">
+            <summary>
+            基于Twitter的snowflake算法
+            </summary>
+        </member>
+        <member name="P:Nice.Snowflake.Snowflake.WorkerId">
+             <summary>
+            10位的数据机器位中的高位
+             </summary>
+        </member>
+        <member name="P:Nice.Snowflake.Snowflake.DatacenterId">
+            <summary>
+            10位的数据机器位中的低位
+            </summary>
+        </member>
+        <member name="M:Nice.Snowflake.Snowflake.#ctor(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            基于Twitter的snowflake算法
+            </summary>
+            <param name="workerId">10位的数据机器位中的高位，默认不应该超过5位(5byte)</param>
+            <param name="datacenterId"> 10位的数据机器位中的低位，默认不应该超过5位(5byte)</param>
+            <param name="sequence">初始序列</param>
+        </member>
+        <member name="M:Nice.Snowflake.Snowflake.NextId">
+            <summary>
+            获取下一个Id，该方法线程安全
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
