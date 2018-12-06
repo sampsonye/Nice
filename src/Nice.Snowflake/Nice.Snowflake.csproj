@@ -14,6 +14,7 @@
     <PackageTags>Nice snowflake distribute</PackageTags>
     <Copyright>Sampson</Copyright>
     <Version>1.0.1</Version>
+    <PackageIconUrl>https://github.com/sampsonye/Nice/raw/master/Nice.png</PackageIconUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
