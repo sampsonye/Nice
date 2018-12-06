@@ -16,18 +16,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{31FE4F6F-85DC-4215-ACD8-BB808DF2EEE6}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE.txt = LICENSE.txt
+		Nice.png = Nice.png
 		README.MD = README.MD
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf", "src\Nice.Leaf\Nice.Leaf.csproj", "{071175D6-C626-4B4B-8A60-6A4A7C1B1FF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nice.Leaf.Tests", "test\Nice.Leaf.Tests\Nice.Leaf.Tests.csproj", "{B2A8393C-C2BC-4968-B539-1E353C494682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf.Tests", "test\Nice.Leaf.Tests\Nice.Leaf.Tests.csproj", "{B2A8393C-C2BC-4968-B539-1E353C494682}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{38F46C34-9409-4D5B-AB6F-90D41B0932CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nice.Leaf.ConsoleDemo", "sample\Nice.Leaf.ConsoleDemo\Nice.Leaf.ConsoleDemo.csproj", "{6D13A5DF-1507-4E2B-B417-1F2B5C5FFB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf.ConsoleDemo", "sample\Nice.Leaf.ConsoleDemo\Nice.Leaf.ConsoleDemo.csproj", "{6D13A5DF-1507-4E2B-B417-1F2B5C5FFB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nice.Leaf.Benchmark", "test\Nice.Leaf.Benchmark\Nice.Leaf.Benchmark.csproj", "{7623DFE5-A3F8-4275-8D05-4AD64EC1AF4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf.Benchmark", "test\Nice.Leaf.Benchmark\Nice.Leaf.Benchmark.csproj", "{7623DFE5-A3F8-4275-8D05-4AD64EC1AF4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
