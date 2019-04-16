@@ -48,8 +48,8 @@ namespace Nice.Snowflake
         /// <summary>
         /// 基于Twitter的snowflake算法
         /// </summary>
-        /// <param name="workerId">10位的数据机器位中的高位，默认不应该超过5位(5byte)</param>
-        /// <param name="datacenterId"> 10位的数据机器位中的低位，默认不应该超过5位(5byte)</param>
+        /// <param name="workerId">10位的数据机器位中的高位，默认不应该超过5位(5bit)</param>
+        /// <param name="datacenterId"> 10位的数据机器位中的低位，默认不应该超过5位(5bit)</param>
         /// <param name="sequence">初始序列</param>
         public Snowflake(long workerId, long datacenterId, long sequence = 0L)
         {

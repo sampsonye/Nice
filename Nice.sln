@@ -30,7 +30,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf.ConsoleDemo", "sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf.Benchmark", "test\Nice.Leaf.Benchmark\Nice.Leaf.Benchmark.csproj", "{7623DFE5-A3F8-4275-8D05-4AD64EC1AF4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nice.Snowflake.ConsoleDemo", "sample\Nice.Snowflake.ConsoleDemo\Nice.Snowflake.ConsoleDemo.csproj", "{CA11ED1A-4031-4917-9EA1-1BFEFFE5AD2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Snowflake.ConsoleDemo", "sample\Nice.Snowflake.ConsoleDemo\Nice.Snowflake.ConsoleDemo.csproj", "{CA11ED1A-4031-4917-9EA1-1BFEFFE5AD2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
