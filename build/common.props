@@ -1,0 +1,22 @@
+﻿<Project>
+	<Import Project="version.props" />
+	<PropertyGroup>
+		<Authors>Sampson</Authors>
+		<Description>Id Generator algorithm by MeiTuan Leaf</Description>
+		<Copyright>Sampson</Copyright>
+		<owners>Sampson</owners>
+		<PackageProjectUrl>https://github.com/sampsonye/Nice</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/sampsonye/Nice</RepositoryUrl>
+		<PackageLicenseUrl>https://github.com/sampsonye/Nice/blob/master/LICENSE.txt</PackageLicenseUrl>
+		<PackageIconUrl>https://github.com/sampsonye/Nice/raw/master/Nice.png</PackageIconUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<PackageTags>Nice snowflake leaf distribute</PackageTags>
+		<PackageReleaseNotes>support Id Generator algorithm by MeiTuan Leaf</PackageReleaseNotes>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<GenerateAssemblyCompanyAttribute>true</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>true</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyConfigurationAttribute>true</GenerateAssemblyConfigurationAttribute>
+		<IsPackable>true</IsPackable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+</Project>

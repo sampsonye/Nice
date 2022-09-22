@@ -1,25 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../../build/common.props"/>
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Nice.pfx</AssemblyOriginatorKeyFile>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Sampson</Authors>
-    <Description>Snowflake generator</Description>
-    <PackageProjectUrl>https://github.com/sampsonye/Nice</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/sampsonye/Nice</RepositoryUrl>
-    <RepositoryType>GIT</RepositoryType>
-    <PackageReleaseNotes>add LICENSE</PackageReleaseNotes>
-    <PackageTags>Nice snowflake distribute</PackageTags>
-    <Copyright>Sampson</Copyright>
-    <Version>1.0.3</Version>
-    <PackageIconUrl>https://github.com/sampsonye/Nice/raw/master/Nice.png</PackageIconUrl>
-    <PackageLicenseUrl>https://github.com/sampsonye/Nice/blob/master/LICENSE.txt</PackageLicenseUrl>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>Nice.Snowflake.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

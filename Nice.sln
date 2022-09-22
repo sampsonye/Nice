@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32912.340
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{402C4FA4-227B-40FB-843C-20BA5806C72D}"
 EndProject
@@ -12,13 +12,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Snowflake.Benchmark", "test\Nice.Snowflake.Benchmark\Nice.Snowflake.Benchmark.csproj", "{8EF0455A-8808-4840-94BA-2BE0D681AE9B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Snowflake.Tests", "test\Nice.Snowflake.Tests\Nice.Snowflake.Tests.csproj", "{C72BA448-629A-410A-9517-3436BBACC373}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{31FE4F6F-85DC-4215-ACD8-BB808DF2EEE6}"
-	ProjectSection(SolutionItems) = preProject
-		LICENSE.txt = LICENSE.txt
-		Nice.png = Nice.png
-		README.MD = README.MD
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf", "src\Nice.Leaf\Nice.Leaf.csproj", "{071175D6-C626-4B4B-8A60-6A4A7C1B1FF2}"
 EndProject
@@ -31,6 +24,21 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Leaf.Benchmark", "test\Nice.Leaf.Benchmark\Nice.Leaf.Benchmark.csproj", "{7623DFE5-A3F8-4275-8D05-4AD64EC1AF4A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nice.Snowflake.ConsoleDemo", "sample\Nice.Snowflake.ConsoleDemo\Nice.Snowflake.ConsoleDemo.csproj", "{CA11ED1A-4031-4917-9EA1-1BFEFFE5AD2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{B64A02DA-6F2C-4A11-8A76-E56C18084EF4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		Nice.png = Nice.png
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{FFBF239D-A5F8-4B5D-9580-CB5274DF9E6E}"
+	ProjectSection(SolutionItems) = preProject
+		build\common.props = build\common.props
+		build\version.props = build\version.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +91,7 @@ Global
 		{6D13A5DF-1507-4E2B-B417-1F2B5C5FFB26} = {38F46C34-9409-4D5B-AB6F-90D41B0932CF}
 		{7623DFE5-A3F8-4275-8D05-4AD64EC1AF4A} = {585B99F0-6A02-457A-9BAD-4A2FDCEC84CC}
 		{CA11ED1A-4031-4917-9EA1-1BFEFFE5AD2E} = {38F46C34-9409-4D5B-AB6F-90D41B0932CF}
+		{FFBF239D-A5F8-4B5D-9580-CB5274DF9E6E} = {B64A02DA-6F2C-4A11-8A76-E56C18084EF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1629D40B-46D7-4C0C-B442-D181FA08CE1E}

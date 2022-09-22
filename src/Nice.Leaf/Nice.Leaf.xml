@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nice.Leaf</name>
+    </assembly>
+    <members>
+        <member name="T:Nice.Leaf.LeafSegment">
+            <summary>
+            美团的Leaf Segment 方案
+            </summary>
+        </member>
+        <member name="M:Nice.Leaf.LeafSegment.#ctor(System.Func{Nice.Leaf.Segment.DataVal},System.Boolean)">
+            <summary>
+            美团的Leaf Segment 方案
+            </summary>
+            <param name="idGetAction">Id生成策略</param>
+            <param name="prefill">是否立即初始化数据</param>
+        </member>
+        <member name="M:Nice.Leaf.LeafSegment.NextId">
+            <summary>
+            获取下一个Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Nice.Leaf.Segment.DataVal">
+            <summary>
+            数据单元
+            </summary>
+        </member>
+        <member name="P:Nice.Leaf.Segment.DataVal.MaxId">
+            <summary>
+            当前最大Id
+            </summary>
+        </member>
+        <member name="P:Nice.Leaf.Segment.DataVal.Step">
+            <summary>
+            当前步长
+            </summary>
+        </member>
+    </members>
+</doc>
